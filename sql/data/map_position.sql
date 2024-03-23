@@ -1,0 +1,14 @@
+INSERT INTO `map_position` (`id`, `name`, `type`, `grade`, `attribute`, `size`, `x1`, `x2`, `y1`, `y2`, `z1`, `z2`, `doc`) VALUES (0, '极西', 1, 0, 1, 1, 0, 99, 400, 799, 0, 0, '城池');
+INSERT INTO `map_position` (`id`, `name`, `type`, `grade`, `attribute`, `size`, `x1`, `x2`, `y1`, `y2`, `z1`, `z2`, `doc`) VALUES (1, '星海', 10, 6, 6, 1, 700, 999, 0, 199, 0, 0, '岛屿');
+INSERT INTO `map_position` (`id`, `name`, `type`, `grade`, `attribute`, `size`, `x1`, `x2`, `y1`, `y2`, `z1`, `z2`, `doc`) VALUES (2, '南海', 11, 7, 3, 1, 400, 699, 0, 399, 0, 0, '海洋');
+INSERT INTO `map_position` (`id`, `name`, `type`, `grade`, `attribute`, `size`, `x1`, `x2`, `y1`, `y2`, `z1`, `z2`, `doc`) VALUES (3, '蛮狐', 12, 8, 1, 1, 200, 399, 0, 399, 0, 0, '城池');
+INSERT INTO `map_position` (`id`, `name`, `type`, `grade`, `attribute`, `size`, `x1`, `x2`, `y1`, `y2`, `z1`, `z2`, `doc`) VALUES (4, '灭仙', 13, 0, 5, 1, 0, 199, 0, 399, 0, 0, '禁地');
+INSERT INTO `map_position` (`id`, `name`, `type`, `grade`, `attribute`, `size`, `x1`, `x2`, `y1`, `y2`, `z1`, `z2`, `doc`) VALUES (5, '天外天', 14, 0, 5, 1, 88888888, 99999999, 88888888, 99999999, 0, 0, '禁地');
+INSERT INTO `map_position` (`id`, `name`, `type`, `grade`, `attribute`, `size`, `x1`, `x2`, `y1`, `y2`, `z1`, `z2`, `doc`) VALUES (6, '天山', 2, 0, 2, 1, 0, 299, 800, 999, 0, 0, '荒地');
+INSERT INTO `map_position` (`id`, `name`, `type`, `grade`, `attribute`, `size`, `x1`, `x2`, `y1`, `y2`, `z1`, `z2`, `doc`) VALUES (7, '荒峰', 3, 2, 4, 1, 100, 299, 400, 799, 0, 0, '秘境');
+INSERT INTO `map_position` (`id`, `name`, `type`, `grade`, `attribute`, `size`, `x1`, `x2`, `y1`, `y2`, `z1`, `z2`, `doc`) VALUES (8, '乱坟', 4, 3, 2, 1, 300, 499, 700, 999, 0, 0, '荒地');
+INSERT INTO `map_position` (`id`, `name`, `type`, `grade`, `attribute`, `size`, `x1`, `x2`, `y1`, `y2`, `z1`, `z2`, `doc`) VALUES (9, '平川', 5, 4, 2, 1, 300, 499, 400, 699, 0, 0, '荒地');
+INSERT INTO `map_position` (`id`, `name`, `type`, `grade`, `attribute`, `size`, `x1`, `x2`, `y1`, `y2`, `z1`, `z2`, `doc`) VALUES (10, '北海', 6, 5, 3, 1, 500, 999, 800, 999, 0, 0, '海洋');
+INSERT INTO `map_position` (`id`, `name`, `type`, `grade`, `attribute`, `size`, `x1`, `x2`, `y1`, `y2`, `z1`, `z2`, `doc`) VALUES (11, '照阳', 7, 5, 1, 1, 500, 699, 600, 799, 0, 0, '城池');
+INSERT INTO `map_position` (`id`, `name`, `type`, `grade`, `attribute`, `size`, `x1`, `x2`, `y1`, `y2`, `z1`, `z2`, `doc`) VALUES (12, '中东', 8, 5, 4, 1, 500, 699, 400, 599, 0, 0, '秘境');
+INSERT INTO `map_position` (`id`, `name`, `type`, `grade`, `attribute`, `size`, `x1`, `x2`, `y1`, `y2`, `z1`, `z2`, `doc`) VALUES (13, '东海', 9, 5, 3, 1, 700, 999, 200, 799, 0, 0, '海洋');

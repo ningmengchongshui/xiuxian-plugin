@@ -1,0 +1,57 @@
+{
+  "name": "xiuxian",
+  "version": "2.2.0",
+  "description": "凡人修仙文字游戏",
+  "author": "ningmengchongshui",
+  "license": "GPL-2.0",
+  "main": "main.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "app": "afloat app",
+    "dev": "afloat dev",
+    "image": "afloat image",
+    "build": "afloat build",
+    "build-bot": "afloat build-bot",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "axios": "^1.6.5",
+    "bullmq": "^4.12.7",
+    "ioredis": "^5.3.2",
+    "mysql2": "^3.6.2",
+    "sequelize": "^6.33.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "@types/qs": "^6.9.9",
+    "@types/ws": "^8.5.5",
+    "afloat": "^1.2.0-rc.10",
+    "alemonjs": "^1.2.0-rc.28",
+    "alemon-icqq": "^1.0.0-rc.1",
+    "pre-commit": "^1.2.2",
+    "prettier": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=16.14.0"
+  },
+  "alemonjs": {
+    "download": {
+      "github": {
+        "arg": "--depth=1 -b build",
+        "url": "https://github.com/ningmengchongshui/xiuxian-plugin.git"
+      }
+    },
+    "env": {
+      "ALEMONJS_REDIS_HOST": "localhost",
+      "ALEMONJS_REDIS_PORT": 6379,
+      "ALEMONJS_REDIS_PASSWORD": "",
+      "ALEMONJS_REDIS_DB": 3,
+      "ALEMONJS_MYSQL_DATABASE": "xiuxian",
+      "ALEMONJS_MYSQL_USER": "root",
+      "ALEMONJS_MYSQL_PASSWORD": "",
+      "ALEMONJS_MYSQL_HOST": "localhost",
+      "ALEMONJS_MYSQL_PROT": 3306
+    }
+  }
+}

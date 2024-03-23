@@ -1,0 +1,11 @@
+INSERT INTO `fate_level` (`id`, `grade`, `exp_gaspractice`, `exp_bodypractice`, `exp_soul`, `doc`) VALUES (0, 0, 72000, 63000, 54000, '');
+INSERT INTO `fate_level` (`id`, `grade`, `exp_gaspractice`, `exp_bodypractice`, `exp_soul`, `doc`) VALUES (1, 1, 81000, 72000, 63000, NULL);
+INSERT INTO `fate_level` (`id`, `grade`, `exp_gaspractice`, `exp_bodypractice`, `exp_soul`, `doc`) VALUES (2, 2, 90000, 81000, 72000, NULL);
+INSERT INTO `fate_level` (`id`, `grade`, `exp_gaspractice`, `exp_bodypractice`, `exp_soul`, `doc`) VALUES (3, 3, 180000, 90000, 81000, NULL);
+INSERT INTO `fate_level` (`id`, `grade`, `exp_gaspractice`, `exp_bodypractice`, `exp_soul`, `doc`) VALUES (4, 4, 270000, 180000, 90000, NULL);
+INSERT INTO `fate_level` (`id`, `grade`, `exp_gaspractice`, `exp_bodypractice`, `exp_soul`, `doc`) VALUES (5, 5, 360000, 270000, 180000, NULL);
+INSERT INTO `fate_level` (`id`, `grade`, `exp_gaspractice`, `exp_bodypractice`, `exp_soul`, `doc`) VALUES (6, 6, 450000, 360000, 270000, NULL);
+INSERT INTO `fate_level` (`id`, `grade`, `exp_gaspractice`, `exp_bodypractice`, `exp_soul`, `doc`) VALUES (7, 7, 540000, 450000, 360000, NULL);
+INSERT INTO `fate_level` (`id`, `grade`, `exp_gaspractice`, `exp_bodypractice`, `exp_soul`, `doc`) VALUES (8, 8, 630000, 540000, 450000, NULL);
+INSERT INTO `fate_level` (`id`, `grade`, `exp_gaspractice`, `exp_bodypractice`, `exp_soul`, `doc`) VALUES (9, 9, 720000, 630000, 540000, NULL);
+INSERT INTO `fate_level` (`id`, `grade`, `exp_gaspractice`, `exp_bodypractice`, `exp_soul`, `doc`) VALUES (10, 10, 810000, 720000, 630000, NULL);

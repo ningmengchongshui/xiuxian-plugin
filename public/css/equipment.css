@@ -1,0 +1,150 @@
+.user {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-size: 100% auto;
+}
+
+.grid-1 {
+  display: grid;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+}
+
+.lattice {
+  grid-template-columns: repeat(3, 33.33%);
+  text-align: left;
+  display: grid;
+  padding: 10px 0px 10px 50px;
+}
+
+.Horizontal_grid {
+  padding: 10px;
+}
+
+.font_control {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+
+.user_top {
+  display: grid;
+  background-color: rgb(0 0 0 / 50%);
+  grid-template-columns: repeat(2, 65% 35%);
+  border-radius: 30px;
+  margin: 27px;
+}
+
+.user_top_left {
+  text-align: left;
+  margin: auto 0;
+}
+
+.user_top_right {
+  height: 100%;
+  width: 100%;
+  display: grid;
+}
+
+.user_top_img_bottom {
+  height: 212px;
+  background-size: 100% 100%;
+  display: grid;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  margin: auto;
+}
+
+.user_top_img {
+  width: 186px;
+  height: 186px;
+  border-radius: 100px;
+  margin: auto;
+}
+
+.font {
+  white-space: nowrap;
+}
+
+.user_top_right_font0 {
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  background-color: rgba(19, 21, 22, 0.842);
+}
+
+.user_top_right_font1 {
+  background-color: rgba(19, 21, 22, 0.563);
+}
+
+.user_top_right_font {
+  background-color: rgba(19, 21, 22, 0.448);
+}
+
+.user_top_right_font2 {
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background-color: rgba(19, 21, 22, 0.666);
+}
+
+.use_data {
+  padding-bottom: 20px;
+}
+
+.user_font {
+  text-align: left;
+  margin: 9px;
+  font-size: 25.6px;
+  padding: 15px;
+  padding-left: 60px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  background-color: rgba(19, 21, 22, 0.486);
+}
+
+.gonfa {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gonfa2 {
+  display: flex;
+  flex-grow: 2;
+  width: 33.33%;
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+}
+
+.user_bottom0 {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  padding: 0 27px;
+  height: 380px;
+  margin: auto;
+}
+
+.user_bottom1 {
+  border-radius: 20px;
+  padding: 0 27px;
+  margin: auto;
+}
+
+.user_bottom2 {
+  border-radius: 20px;
+  padding: 0 27px;
+  margin: auto;
+  height: 20px;
+}
