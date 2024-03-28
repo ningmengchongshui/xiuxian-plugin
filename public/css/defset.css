@@ -1,8 +1,14 @@
+html,
+body {
+  margin: 0;
+}
+
 .defset {
   text-align: center;
   background-size: 100% auto;
   width: 100%;
   height: 100%;
+  background-image: url('../img/help/help.jpg');
 }
 
 .defset-c {

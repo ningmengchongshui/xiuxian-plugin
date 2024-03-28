@@ -1,8 +1,14 @@
+html,
+body {
+  margin: 0;
+}
+
 .user {
   width: 100%;
   margin: auto;
   text-align: center;
   background-size: 100% auto;
+  background-image: url('../img/user/bag/bag.jpg');
 }
 
 .grid-1 {

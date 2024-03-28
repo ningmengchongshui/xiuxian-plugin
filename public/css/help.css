@@ -1,7 +1,14 @@
+html,
+body {
+  margin: 0;
+}
+
+
 .help {
   transform: scale(1);
   background-size: 100% 100% !important;
   min-height: 1600px;
+  background: url('../img/help/help.jpg');
 }
 
 .cont-box {
@@ -113,6 +120,7 @@
   top: 12px;
   transform: scale(0.85);
   background-size: 500px auto;
+  background: url('../img/help/icon.jpg') 0 0 no-repeat;
 }
 
 .help-icon-1 {

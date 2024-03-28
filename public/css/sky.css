@@ -1,3 +1,20 @@
+html,
+body {
+  margin: 0;
+}
+
+.user {
+  background-image: url('../img/user/information/information.jpg');
+}
+
+.user_top {
+  background-image: url('../img/user/information/left.jpg');
+}
+
+.user_top_img_bottom {
+  background-image: url('../img/user/information/right.jpg');
+}
+
 .user {
   width: 100%;
   margin: auto;
@@ -95,7 +112,7 @@
 }
 
 .use_data {
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
 .user_font {
@@ -133,9 +150,9 @@
 
 .user_bottom1 {
   border-radius: 20px;
-  padding: 0px 25px;
-  margin: auto;
+  width: 100%;
 }
+
 
 .user_bottom2 {
   border-radius: 20px;

@@ -1,3 +1,20 @@
+html,
+body {
+  margin: 0;
+}
+
+.user {
+  background-image: url('../img/user/information/information.jpg');
+}
+
+.user_top {
+  background-image: url('../img/user/information/left.jpg');
+}
+
+.user_top_img_bottom {
+  background-image: url('../img/user/information/right.jpg');
+}
+
 .user {
   width: 100%;
   margin: auto;
