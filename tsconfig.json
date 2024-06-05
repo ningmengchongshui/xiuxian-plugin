@@ -34,6 +34,6 @@
     "transpileOnly": true,
     "experimentalSpecifierResolution": "node"
   },
-  "include": ["src", "src-vite", "src-koa", "src-image", "vite.config.ts"],
+  "include": ["src", "src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
