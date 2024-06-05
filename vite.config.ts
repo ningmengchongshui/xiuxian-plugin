@@ -2,6 +2,9 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { join } from 'path'
 
+const KEY = Date.now()
+const NODE_ENV = process.env.NODE_ENV == 'development'
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
@@ -14,12 +17,18 @@ export default defineConfig({
     proxy: {
       // 将所有以 '/api' 开头的请求代理到目标服务器
       '/api': {
-        target: 'http://localhost:9090/api', // 目标服务器地址
+        target: 'http://127.0.0.1:9090/api', // 目标服务器地址
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, '') // 可选的路径重写
       }
     }
   },
+  esbuild: NODE_ENV
+    ? {}
+    : {
+        // 删除 所有的console 和 debugger
+        drop: ['console', 'debugger']
+      },
   build: {
     minify: 'terser', // 启用 terser 压缩
     terserOptions: {
@@ -31,9 +40,9 @@ export default defineConfig({
     rollupOptions: {
       output: {
         //自动分割包名输出 chunkSizeWarningLimit 配置大小
-        chunkFileNames: 'js/[name]-[hash].js', //入口文件名
-        entryFileNames: 'js/[name]-[hash].js', //出口文件名位置
-        assetFileNames: '[ext]/[name]-[hash].[ext]', //静态文件名位置
+        chunkFileNames: `js/[name]-[hash].${KEY}.js`, //入口文件名
+        entryFileNames: `js/[name]-[hash].${KEY}.js`, //出口文件名位置
+        assetFileNames: `[ext]/[name]-[hash].${KEY}.[ext]`, //静态文件名位置
         manualChunks(id) {
           if (id.includes('node_modules')) {
             return id
