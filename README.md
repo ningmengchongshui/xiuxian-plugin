@@ -14,31 +14,9 @@ cd ./xiuxian-web
 
 - 安装依赖
 
-选择你可以执行的工具进行加载
-
 ```sh
-npm install yarn -g
-yarn
-```
-
-```sh
-# 或者
 npm install pnpm -g
 pnpm install
-```
-
-```sh
-# 或者
-npm install cnpm -g
-cnpm install
-```
-
-- 执行打包
-
-打包生产 `index.js`
-
-```sh
-npm run build
 ```
 
 - 启动 WEB 管理器
