@@ -5,7 +5,7 @@
 - 安装项目
 
 ```sh
-git clone  --depth=1 -b web https://gitee.com/ningmengchongshui/xiuxian-plugin.git ./xiuxian-web
+git clone  --depth=1 -b web https://github.com/ningmengchongshui/xiuxian-plugin.git ./xiuxian-web
 ```
 
 ```sh
